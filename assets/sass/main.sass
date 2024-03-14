@@ -2,17 +2,32 @@
 @import '_variables.sass'
 
 #header-container
-  background: $color-primary
-  border-bottom-right-radius: 90px 
+  background: $color-white
   height: 80px
   position: sticky
   top: 0
   width: 100%
   z-index: 2
-  div
-    margin: 0 10px
-    img
-      width: 10rem
+
+#header-img
+  height: 100%
+  width: 100%
+  img
+    height: 100%
+
+#header-nav
+  align-items: center
+  display: flex
+  background: $color-black
+  height: 30px
+  justify-content: space-evenly
+  width: 100%
+  a
+    color: $color-white
+    font-weight: 600
+
+.ancor
+  height: 100px
 
 main
   align-items: center
